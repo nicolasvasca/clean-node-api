@@ -216,8 +216,7 @@ describe('SingnUp Controller', () => {
       id: 'valid_id',
       name: 'valid_name',
       email: 'valid_email@mail.com',
-      password: 'valid_password',
-      passwordConfirmation: 'valid_password'
+      password: 'valid_password'
     })
   })
 })
