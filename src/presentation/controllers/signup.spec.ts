@@ -2,7 +2,7 @@ import { SingUpController } from './singup'
 import { MissingParamError } from '../error/missing-param-error'
 
 const makeSut = (): SingUpController => {
-    return new SingUpController()
+  return new SingUpController()
 }
 
 describe('SingnUp Controller', () => {
